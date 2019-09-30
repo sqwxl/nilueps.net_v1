@@ -39,6 +39,14 @@ const works = [
     height: '20',
     img: '/assets/images/2017-lindenauer_hafen-1024x617.jpg',
   },
+  {
+    title: 'My Title',
+    year: '2019',
+    medium: 'Oil on canvas',
+    width: '20',
+    height: '20',
+    img: '/assets/images/2017-lindenauer_hafen-1024x617.jpg',
+  },
 ];
 
 export default works;
