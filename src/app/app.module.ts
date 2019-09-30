@@ -12,6 +12,7 @@ import { OpusImageComponent } from './opus-image/opus-image.component';
 import { ClassesComponent } from './classes/classes.component';
 import { InfoComponent } from './info/info.component';
 import { DeferLoadModule } from '@trademe/ng-defer-load';
+import { OpusCustomDescriptionComponent } from './opus-custom-description/opus-custom-description.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { DeferLoadModule } from '@trademe/ng-defer-load';
     OpusImageComponent,
     ClassesComponent,
     InfoComponent,
+    OpusCustomDescriptionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, DeferLoadModule],
   providers: [],
