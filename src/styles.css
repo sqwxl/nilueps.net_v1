@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+.hello {
+  flex-shrink: 1;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.nav-item {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+.nav-item > a {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+body {
+  background: #fbfbfb;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.bg-light {
+  background-color: #f0f2f4 !important;
+}
+
+html,
+body,
+.app-root {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+<app-opus *ngFor="let work of works">
+  <app-opus-image [src]="work.img"></app-opus-image>
+  <app-opus-title>{{ work.title }}</app-opus-title>
+  <app-opus-standard-description
+    [year]="work.year"
+    [medium]="work.medium"
+    [width]="20"
+    [height]="20"
+  >
+  </app-opus-standard-description>
+</app-opus>

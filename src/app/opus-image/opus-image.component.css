@@ -1,0 +1,13 @@
+.opus-image {
+  width: 100%;
+  min-height: 200px;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-height: 80vh;
+  max-width: 90vw;
+}
+
+
