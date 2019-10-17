@@ -2,28 +2,32 @@
   <a class="navbar-brand" routerLink="/">
     <img src="/assets/images/daduck-bw.png" height="32" />
   </a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
+  <!-- <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target=".navbar-collapse.show"
+      data-target="#collapsibleNavbar"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    > -->
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item" data-toggle='collapse' data-target=".navbar-collapse.show">
-        <a href="#" class="nav-link" routerLink="/" >Opus</a>
+      <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link" routerLink="/">Opus</a>
       </li>
-      <li class="nav-item active" data-toggle='collapse' data-target=".navbar-collapse.show">
-        <a class="nav-link" routerLink="/classes" >Classes</a>
+      <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link" routerLink="/classes">Classes</a>
       </li>
-      <li class="nav-item active" data-toggle='collapse' data-target=".navbar-collapse.show">
-        <a class="nav-link" routerLink="/info" >Info</a>
+      <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a class="nav-link" routerLink="/info">Info</a>
       </li>
     </ul>
   </div>

@@ -13,9 +13,9 @@ export class OpusStandardDescriptionComponent implements OnInit {
   @Input()
   year = '';
   @Input()
-  width = '';
-  @Input()
   height = '';
+  @Input()
+  width = '';
 
   ngOnInit() {}
 }

@@ -5,8 +5,8 @@
     *ngIf="!work.description"
     [year]="work.year"
     [medium]="work.medium"
-    [width]="20"
-    [height]="20"
+    [height]="work.height"
+    [width]="work.width"
   ></app-opus-standard-description>
   <app-opus-custom-description
     *ngIf="work.description"
