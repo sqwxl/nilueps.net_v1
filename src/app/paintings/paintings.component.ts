@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, ContentChild } from '@angular/core';
-import { OpusTitleComponent } from '../opus-title/opus-title.component';
+//import { OpusTitleComponent } from '../opus-title/opus-title.component';
 import works from './works';
 
 @Component({

@@ -6,6 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./opus-standard-description.component.css'],
 })
 export class OpusStandardDescriptionComponent implements OnInit {
+  
   constructor() {}
 
   @Input()

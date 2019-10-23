@@ -13,6 +13,11 @@ import { ClassesComponent } from './classes/classes.component';
 import { InfoComponent } from './info/info.component';
 import { DeferLoadModule } from '@trademe/ng-defer-load';
 import { OpusCustomDescriptionComponent } from './opus-custom-description/opus-custom-description.component';
+import { ClassesModuleComponent } from './classes-module/classes-module.component';
+import { ClassesModuleDescriptionComponent } from './classes-module-description/classes-module-description.component';
+import { ClassesModuleImageComponent } from './classes-module-image/classes-module-image.component';
+import { ClassesModuleBulletsComponent } from './classes-module-bullets/classes-module-bullets.component';
+import { ClassesModuleButtonComponent } from './classes-module-button/classes-module-button.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +31,11 @@ import { OpusCustomDescriptionComponent } from './opus-custom-description/opus-c
     ClassesComponent,
     InfoComponent,
     OpusCustomDescriptionComponent,
+    ClassesModuleComponent,
+    ClassesModuleDescriptionComponent,
+    ClassesModuleImageComponent,
+    ClassesModuleBulletsComponent,
+    ClassesModuleButtonComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, DeferLoadModule],
   providers: [],
