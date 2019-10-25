@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-classes-module-button',
@@ -13,7 +13,16 @@ export class ClassesModuleButtonComponent implements OnInit {
   title = '';
   
   @Input()
-  id = "";
+  id = '';
+
+  @Output()
+  click = new EventEmitter<any>();
+
+  collapsed = true;
+  unclick() {
+    this.collapsed = !this.collapsed;
+    console.log("ok");
+  }
 
   ngOnInit() {
   }
