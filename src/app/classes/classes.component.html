@@ -59,10 +59,10 @@
   <h2>Modules</h2>
 
   <app-classes-module *ngFor="let moduleContent of moduleContents">
-    <app-classes-module-button [title]="moduleContent.title" [id]="moduleContent.id" (click)="unclick()"></app-classes-module-button>
-    <div class="collapse" id="moduleContent.id">
+    <app-classes-module-button [title]="moduleContent.title" [id]="moduleContent.id"></app-classes-module-button>
+    <div class="collapse" [attr.id]="moduleContent.id">
       <app-classes-module-bullets [innerHtml]="moduleContent.bullets"></app-classes-module-bullets>
-      <app-classes-module-image [src]="moduleContent.img"></app-classes-module-image>
+      <app-classes-module-image *ngIf="moduleContent.img" [src]="moduleContent.img"></app-classes-module-image>
       <app-classes-module-description [innerHtml]="moduleContent.description">
       </app-classes-module-description>
     </div>

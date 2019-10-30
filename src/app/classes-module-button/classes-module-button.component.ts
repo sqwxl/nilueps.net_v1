@@ -9,16 +9,15 @@ export class ClassesModuleButtonComponent implements OnInit {
 
   constructor() {}
 
-  @Input()
-  title = '';
+  @Input() title:string;
   
-  @Input()
-  id = '';
+  @Input() id:string;
 
   @Output()
   click = new EventEmitter<any>();
 
   collapsed = true;
+
   unclick() {
     this.collapsed = !this.collapsed;
     console.log("ok");
