@@ -13,9 +13,6 @@ export class ClassesModuleButtonComponent implements OnInit {
   
   @Input() id:string;
 
-  @Output()
-  click = new EventEmitter<any>();
-
   collapsed = true;
 
   unclick() {
