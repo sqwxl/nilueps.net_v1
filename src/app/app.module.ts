@@ -18,7 +18,6 @@ import { ClassesModuleDescriptionComponent } from './classes-module-description/
 import { ClassesModuleImageComponent } from './classes-module-image/classes-module-image.component';
 import { ClassesModuleBulletsComponent } from './classes-module-bullets/classes-module-bullets.component';
 import { ClassesModuleButtonComponent } from './classes-module-button/classes-module-button.component';
-import { BrowserAnimationsModule } from  '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -38,7 +37,7 @@ import { BrowserAnimationsModule } from  '@angular/platform-browser/animations';
     ClassesModuleBulletsComponent,
     ClassesModuleButtonComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, DeferLoadModule, BrowserAnimationsModule],
+  imports: [BrowserModule, AppRoutingModule, DeferLoadModule],
   providers: [],
   bootstrap: [AppComponent],
 })
