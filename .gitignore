@@ -4,7 +4,7 @@
 /dist
 /tmp
 /out-tsc
-/unprocessed-images-for-homepage
+unprocessed-images-for-homepage
 # Only exists if Bazel was run
 /bazel-out
 
