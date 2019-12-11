@@ -18,5 +18,7 @@ export class OpusComponent implements OnInit {
 
   @Input()
   img = '';
-  ngOnInit() {}
+  ngOnInit() {
+    window.scrollTo(0,0);
+  }
 }
