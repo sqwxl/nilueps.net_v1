@@ -1,5 +1,5 @@
 export default {
   translation: {
-    "full-drawing-course-title": "Full Painting and Drawing Course"
+    "full-drawing-course-title": "Full Painting and Drawing Course {{yo}}"
   }
 };
