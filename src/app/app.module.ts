@@ -13,6 +13,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { InfoComponent } from './info/info.component';
 import { DeferLoadModule } from '@trademe/ng-defer-load';
 import { OpusCustomDescriptionComponent } from './opus-custom-description/opus-custom-description.component';
+import { I18NextModule } from 'angular-i18next';
 
 
 @NgModule({
@@ -28,8 +29,42 @@ import { OpusCustomDescriptionComponent } from './opus-custom-description/opus-c
     InfoComponent,
     OpusCustomDescriptionComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, DeferLoadModule],
-  providers: [],
+  imports: [BrowserModule, AppRoutingModule, DeferLoadModule, I18NextModule.forRoot()
+  ],
+  providers: [
+    I18N_PROVIDERS,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
+export function appInit(i18next: ITranslationService) {
+  return () => i18next.init({
+      whitelist: ['en', 'fr'],
+      fallbackLng: 'fr',
+      debug: true,
+      returnEmptyString: false,
+      ns: [
+        'translation',
+        'validation',
+        'error'
+      ],
+    });
+}
+
+export function localeIdFactory(i18next: ITranslationService)  {
+  return i18next.language;
+}
+
+export const I18N_PROVIDERS = [
+{
+  provide: APP_INITIALIZER,
+  useFactory: appInit,
+  deps: [I18NEXT_SERVICE],
+  multi: true
+},
+{
+  provide: LOCALE_ID,
+  deps: [I18NEXT_SERVICE],
+  useFactory: localeIdFactory
+}];
