@@ -14,20 +14,53 @@
       aria-label="Toggle navigation"
     > -->
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#collapsibleNavbar"
+  >
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" data-toggle="collapse" data-target=".navbar-collapse.show">
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        data-toggle="collapse"
+        data-target=".navbar-collapse.show"
+      >
         <a class="nav-link" routerLink="/">Opus</a>
       </li>
-      <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        data-toggle="collapse"
+        data-target=".navbar-collapse.show"
+      >
         <a class="nav-link" routerLink="/courses">Classes</a>
       </li>
-      <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        data-toggle="collapse"
+        data-target=".navbar-collapse.show"
+      >
         <a class="nav-link" routerLink="/info">Info</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <button class="mx-1 px-1 btn btn-link" (click)="changeLang('en')">
+          en
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="mx-1 px-1 btn btn-link" (click)="changeLang('fr')">
+          fr
+        </button>
       </li>
     </ul>
   </div>
