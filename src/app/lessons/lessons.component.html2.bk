@@ -60,17 +60,17 @@
 
   <div *ngFor="let moduleContent of moduleContents">
     <p>
-      <app-courses-module-button [title]="moduleContent.title" [id]="moduleContent.id"
-        (click)="moduleContent.collapsed = !moduleContent.collapsed"></app-courses-module-button>
+      <app-lessons-module-button [title]="moduleContent.title" [id]="moduleContent.id"
+        (click)="moduleContent.collapsed = !moduleContent.collapsed"></app-lessons-module-button>
     </p>
     <div [@smoothCollapse]="moduleContent.collapsed ? 'initial' : 'final'">
-      <app-courses-module>
-        <app-courses-module-bullets *ngIf="moduleContent.bullets" [innerHtml]="moduleContent.bullets">
-        </app-courses-module-bullets>
-        <app-courses-module-image *ngIf="moduleContent.img" [src]="moduleContent.img"></app-courses-module-image>
-        <app-courses-module-description *ngIf="moduleContent.description" [innerHtml]="moduleContent.description">
-        </app-courses-module-description>
-      </app-courses-module>
+      <app-lessons-module>
+        <app-lessons-module-bullets *ngIf="moduleContent.bullets" [innerHtml]="moduleContent.bullets">
+        </app-lessons-module-bullets>
+        <app-lessons-module-image *ngIf="moduleContent.img" [src]="moduleContent.img"></app-lessons-module-image>
+        <app-lessons-module-description *ngIf="moduleContent.description" [innerHtml]="moduleContent.description">
+        </app-lessons-module-description>
+      </app-lessons-module>
     </div>
   </div>
 </div>
