@@ -2,7 +2,9 @@
   <div class="row">
     <div class="col"></div>
     <div class="col-sm-10">
-      <h1 class="display-4">{{ "full-drawing-course-title" | i18next }}</h1>
+      <h1 class="display-4 text-left">{{ "full-drawing-course-title" | i18next }}</h1>
+      <p class="lead text-left">{{ "full-drawing-course-lead" | i18next }}</p>
+      <p><button class="btn btn-primary" routerLink="/info">{{ "full-drawing-course-register" | i18next }}</button></p>
     </div>
     <div class="col"></div>
   </div>
@@ -16,184 +18,175 @@
     <div class="col">
       <img class="img-fluid rounded" src="assets/images/lessons/step0004.jpg" /></div>
   </div>
+
   <div class="row pt-3">
     <div class="col"></div>
     <div class="col-lg-8">
-      <h2>{{ "full-drawing-course-overview" | i18next }}</h2>
-      <p>{{ "full-drawing-course-p1" | i18next }}</p>
-      <p>{{ "full-drawing-course-p2" | i18next }}</p>
-      <p>{{ "full-drawing-course-p3" | i18next }}</p>
-    </div>
-    <div class="col"></div>
-  </div>
-
-  <div class="row">
-    <div class="col"></div>
-    <div class="col-lg-8">
       <h2>{{ "modules-section-title" | i18next }}</h2>
-      <div id="modules-accordion">
 
-        <div class="card">
-          <div id="module-1-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#module-1" aria-expanded="false" aria-controls="module-1">
-              {{ "module-1-title" | i18next }}
-              <span class="badge badge-pill badge-success">{{ "module-1-badge" | i18next }}</span>
-            </button>
-          </div>
-
-          <div id="module-1" class="collapse" aria-labelledby="module-1-heading" data-parent="#modules-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/module-1/Wd_ho84_SHU.jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "module-1-details-mediums" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-skills" | i18next }}</dt>
-                    <dd>{{ "module-1-details-skills" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
-                    <dd>{{ "module-1-details-requirements" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "module-1-details-creations" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-length" | i18next }}</dt>
-                    <dd>{{ "module-1-details-length" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-price" | i18next }}</dt>
-                    <dd>{{ "module-1-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
-              </div>
-            </div>
-            <div class="card-body p-3">
-              <h4>{{ "module-1-summary" | i18next }}</h4>
-              <p>{{ "module-1-summary-p1" | i18next }}</p>
-              <p>{{ "module-1-summary-p2" | i18next }}</p>
-              <p>{{ "module-1-summary-p3" | i18next }}</p>
-            </div>
-          </div>
+      <div class="card">
+        <div id="module-1-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#module-1" aria-expanded="false" aria-controls="module-1">
+            {{ "module-1-title" | i18next }}
+            <span class="badge badge-pill badge-success">{{ "module-1-badge" | i18next }}</span>
+          </button>
         </div>
 
-        <div class="card">
-          <div id="module-2-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#module-2" aria-expanded="false" aria-controls="module-2">
-              {{ "module-2-title" | i18next }}
-              <span class="badge badge-pill badge-success">{{ "module-2-badge" | i18next }}</span>
-            </button>
-          </div>
-
-          <div id="module-2" class="collapse" aria-labelledby="module-2-heading" data-parent="#modules-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/module-2/1963_1401_IN2.jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "module-2-details-mediums" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-skills" | i18next }}</dt>
-                    <dd>{{ "module-2-details-skills" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
-                    <dd>{{ "module-2-details-requirements" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "module-2-details-creations" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-length" | i18next }}</dt>
-                    <dd>{{ "module-2-details-length" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-price" | i18next }}</dt>
-                    <dd>{{ "module-2-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
+        <div id="module-1" class="collapse" aria-labelledby="module-1-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded" src="assets/images/module-1/Wd_ho84_SHU.jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "module-1-details-mediums" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-skills" | i18next }}</dt>
+                  <dd>{{ "module-1-details-skills" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
+                  <dd>{{ "module-1-details-requirements" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "module-1-details-creations" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-length" | i18next }}</dt>
+                  <dd>{{ "module-1-details-length" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-price" | i18next }}</dt>
+                  <dd>{{ "module-1-details-price" | i18next }}</dd>
+                </dl>
               </div>
             </div>
-            <div class="card-body p-3">
-              <h4>{{ "module-2-summary" | i18next }}</h4>
-              <p>{{ "module-2-summary-p1" | i18next }}</p>
-              <p>{{ "module-2-summary-p2" | i18next }}</p>
-              <p>{{ "module-2-summary-p3" | i18next }}</p>
-            </div>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "module-1-summary" | i18next }}</h4>
+            <p>{{ "module-1-summary-p1" | i18next }}</p>
+            <p>{{ "module-1-summary-p2" | i18next }}</p>
+            <p>{{ "module-1-summary-p3" | i18next }}</p>
           </div>
         </div>
+      </div>
 
-        <div class="card">
-          <div id="module-3-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#module-3" aria-expanded="false" aria-controls="module-3" disabled>
-              {{ "module-3-title" | i18next }}
-              <span class="badge badge-pill badge-secondary">{{ "module-3-badge" | i18next }}</span>
-            </button>
-          </div>
+      <div class="card">
+        <div id="module-2-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#module-2" aria-expanded="false" aria-controls="module-2">
+            {{ "module-2-title" | i18next }}
+            <span class="badge badge-pill badge-success">{{ "module-2-badge" | i18next }}</span>
+          </button>
 
-          <div id="module-3" class="collapse" aria-labelledby="module-3-heading" data-parent="#modules-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/module-3/image (1).jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "module-3-details-mediums" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-skills" | i18next }}</dt>
-                    <dd>{{ "module-3-details-skills" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
-                    <dd>{{ "module-3-details-requirements" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "module-3-details-creations" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-length" | i18next }}</dt>
-                    <dd>{{ "module-3-details-length" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-price" | i18next }}</dt>
-                    <dd>{{ "module-3-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
-              </div>
-            </div>
-            <div class="card-body p-3">
-              <h4>{{ "module-3-summary" | i18next }}</h4>
-              <p>{{ "module-3-summary-p1" | i18next }}</p>
-            </div>
-          </div>
         </div>
 
-        <div class="card">
-          <div id="module-4-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#module-4" aria-expanded="false" aria-controls="module-4" disabled>
-              {{ "module-4-title" | i18next }}
-              <span class="badge badge-pill badge-secondary">{{ "module-4-badge" | i18next }}</span>
-            </button>
-          </div>
 
-          <div id="module-4" class="collapse" aria-labelledby="module-4-heading" data-parent="#modules-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/module-4/Antonio_Mancini,_Italian_-_Il_Saltimbanco_-_Google_Art_Project.jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "module-4-details-mediums" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-skills" | i18next }}</dt>
-                    <dd>{{ "module-4-details-skills" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
-                    <dd>{{ "module-4-details-requirements" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "module-4-details-creations" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-length" | i18next }}</dt>
-                    <dd>{{ "module-4-details-length" | i18next }}</dd>
-                    <dt>{{ "modules-section-details-price" | i18next }}</dt>
-                    <dd>{{ "module-4-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
+        <div id="module-2" class="collapse" aria-labelledby="module-2-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded" src="assets/images/module-2/1963_1401_IN2.jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "module-2-details-mediums" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-skills" | i18next }}</dt>
+                  <dd>{{ "module-2-details-skills" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
+                  <dd>{{ "module-2-details-requirements" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "module-2-details-creations" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-length" | i18next }}</dt>
+                  <dd>{{ "module-2-details-length" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-price" | i18next }}</dt>
+                  <dd>{{ "module-2-details-price" | i18next }}</dd>
+                </dl>
               </div>
             </div>
-            <div class="card-body p-3">
-              <h4>{{ "module-4-summary" | i18next }}</h4>
-              <p>{{ "module-4-summary-p1" | i18next }}</p>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "module-2-summary" | i18next }}</h4>
+            <p>{{ "module-2-summary-p1" | i18next }}</p>
+            <p>{{ "module-2-summary-p2" | i18next }}</p>
+            <p>{{ "module-2-summary-p3" | i18next }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div id="module-3-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#module-3" aria-expanded="false" aria-controls="module-3" disabled>
+            {{ "module-3-title" | i18next }}
+            <span class="badge badge-pill badge-secondary">{{ "module-3-badge" | i18next }}</span>
+          </button>
+        </div>
+
+        <div id="module-3" class="collapse" aria-labelledby="module-3-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded" src="assets/images/module-3/image (1).jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "module-3-details-mediums" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-skills" | i18next }}</dt>
+                  <dd>{{ "module-3-details-skills" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
+                  <dd>{{ "module-3-details-requirements" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "module-3-details-creations" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-length" | i18next }}</dt>
+                  <dd>{{ "module-3-details-length" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-price" | i18next }}</dt>
+                  <dd>{{ "module-3-details-price" | i18next }}</dd>
+                </dl>
+              </div>
             </div>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "module-3-summary" | i18next }}</h4>
+            <p>{{ "module-3-summary-p1" | i18next }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div id="module-4-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#module-4" aria-expanded="false" aria-controls="module-4" disabled>
+            {{ "module-4-title" | i18next }}
+            <span class="badge badge-pill badge-secondary">{{ "module-4-badge" | i18next }}</span>
+          </button>
+        </div>
+
+        <div id="module-4" class="collapse" aria-labelledby="module-4-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded"
+                  src="assets/images/module-4/Antonio_Mancini,_Italian_-_Il_Saltimbanco_-_Google_Art_Project.jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "modules-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "module-4-details-mediums" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-skills" | i18next }}</dt>
+                  <dd>{{ "module-4-details-skills" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-requirements" | i18next }}</dt>
+                  <dd>{{ "module-4-details-requirements" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "module-4-details-creations" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-length" | i18next }}</dt>
+                  <dd>{{ "module-4-details-length" | i18next }}</dd>
+                  <dt>{{ "modules-section-details-price" | i18next }}</dt>
+                  <dd>{{ "module-4-details-price" | i18next }}</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "module-4-summary" | i18next }}</h4>
+            <p>{{ "module-4-summary-p1" | i18next }}</p>
           </div>
         </div>
       </div>
@@ -206,158 +199,156 @@
     <div class="col-lg-8">
       <h2 class="pt-3">{{ "workshops-section-title" | i18next }}</h2>
 
-      <div id="workshops-accordion">
 
-        <div class="card">
-          <div id="workshop-1-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#workshop-1" aria-expanded="false" aria-controls="workshop-1">
-              {{ "workshop-1-title" | i18next }}
-              <!-- <span class="badge badge-pill badge-success">{{ "workshop-1-badge" | i18next }}</span> -->
-            </button>
-          </div>
-
-          <div id="workshop-1" class="collapse" aria-labelledby="workshop-1-heading" data-parent="#workshops-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/horse-anatomy.jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "workshop-1-details-mediums" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-skills" | i18next }}</dt>
-                    <dd>{{ "workshop-1-details-skills" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-requirements" | i18next }}</dt>
-                    <dd>{{ "workshop-1-details-requirements" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "workshop-1-details-creations" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-length" | i18next }}</dt>
-                    <dd>{{ "workshop-1-details-length" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-price" | i18next }}</dt>
-                    <dd>{{ "workshop-1-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
-              </div>
-            </div>
-            <div class="card-body p-3">
-              <h4>{{ "workshop-1-summary" | i18next }}</h4>
-              <p>{{ "workshop-1-summary-p1" | i18next }}</p>
-            </div>
-          </div>
+      <div class="card">
+        <div id="workshop-1-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#workshop-1" aria-expanded="false" aria-controls="workshop-1">
+            {{ "workshop-1-title" | i18next }}
+            <!-- <span class="badge badge-pill badge-success">{{ "workshop-1-badge" | i18next }}</span> -->
+          </button>
         </div>
 
-
-        <div class="card">
-          <div id="workshop-2-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#workshop-2" aria-expanded="false" aria-controls="workshop-2">
-              {{ "workshop-2-title" | i18next }}
-<!--               <span class="badge badge-pill badge-success">{{ "workshop-2-badge" | i18next }}</span>
- -->            </button>
-          </div>
-
-          <div id="workshop-2" class="collapse" aria-labelledby="workshop-2-heading" data-parent="#workshops-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/bird-skel.jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "workshop-2-details-mediums" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-skills" | i18next }}</dt>
-                    <dd>{{ "workshop-2-details-skills" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-requirements" | i18next }}</dt>
-                    <dd>{{ "workshop-2-details-requirements" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "workshop-2-details-creations" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-length" | i18next }}</dt>
-                    <dd>{{ "workshop-2-details-length" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-price" | i18next }}</dt>
-                    <dd>{{ "workshop-2-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
+        <div id="workshop-1" class="collapse" aria-labelledby="workshop-1-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded" src="assets/images/horse-anatomy.jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "workshop-1-details-mediums" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-skills" | i18next }}</dt>
+                  <dd>{{ "workshop-1-details-skills" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-requirements" | i18next }}</dt>
+                  <dd>{{ "workshop-1-details-requirements" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "workshop-1-details-creations" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-length" | i18next }}</dt>
+                  <dd>{{ "workshop-1-details-length" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-price" | i18next }}</dt>
+                  <dd>{{ "workshop-1-details-price" | i18next }}</dd>
+                </dl>
               </div>
             </div>
-            <div class="card-body p-3">
-              <h4>{{ "workshop-2-summary" | i18next }}</h4>
-              <p>{{ "workshop-2-summary-p1" | i18next }}</p>
-            </div>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "workshop-1-summary" | i18next }}</h4>
+            <p>{{ "workshop-1-summary-p1" | i18next }}</p>
           </div>
         </div>
+      </div>
 
-        <div class="card">
-          <div id="workshop-3-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#workshop-3" aria-expanded="false" aria-controls="workshop-3">
-              {{ "workshop-3-title" | i18next }}
-<!--               <span class="badge badge-pill badge-success">{{ "workshop-3-badge" | i18next }}</span>
- -->            </button>
-          </div>
 
-          <div id="workshop-3" class="collapse" aria-labelledby="workshop-3-heading" data-parent="#workshops-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/canvas-gesso.jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "workshop-3-details-mediums" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "workshop-3-details-creations" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-length" | i18next }}</dt>
-                    <dd>{{ "workshop-3-details-length" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-price" | i18next }}</dt>
-                    <dd>{{ "workshop-3-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
-              </div>
-            </div>
-            <div class="card-body p-3">
-              <h4>{{ "workshop-3-summary" | i18next }}</h4>
-              <p>{{ "workshop-3-summary-p1" | i18next }}</p>
-            </div>
-          </div>
+      <div class="card">
+        <div id="workshop-2-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#workshop-2" aria-expanded="false" aria-controls="workshop-2">
+            {{ "workshop-2-title" | i18next }}
+            <!--               <span class="badge badge-pill badge-success">{{ "workshop-2-badge" | i18next }}</span>
+ --> </button>
         </div>
 
-        <div class="card">
-          <div id="workshop-4-heading">
-            <button class="btn btn-link btn-block btn-outline-light" type="button" data-toggle="collapse"
-              data-target="#workshop-4" aria-expanded="false" aria-controls="workshop-4">
-              {{ "workshop-4-title" | i18next }}
-<!--               <span class="badge badge-pill badge-success">{{ "workshop-4-badge" | i18next }}</span>
- -->            </button>
-          </div>
-
-          <div id="workshop-4" class="collapse" aria-labelledby="workshop-4-heading" data-parent="#workshops-accordion">
-            <div class="card-header">
-              <div class="row">
-                <div class="col-sm-6">
-                  <img class="img-fluid rounded" src="assets/images/making-paint.jpg" />
-                </div>
-                <div class="col">
-                  <dl>
-                    <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
-                    <dd>{{ "workshop-4-details-mediums" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
-                    <dd>{{ "workshop-4-details-creations" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-length" | i18next }}</dt>
-                    <dd>{{ "workshop-4-details-length" | i18next }}</dd>
-                    <dt>{{ "workshops-section-details-price" | i18next }}</dt>
-                    <dd>{{ "workshop-4-details-price" | i18next }}</dd>
-                  </dl>
-                </div>
+        <div id="workshop-2" class="collapse" aria-labelledby="workshop-2-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded" src="assets/images/bird-skel.jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "workshop-2-details-mediums" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-skills" | i18next }}</dt>
+                  <dd>{{ "workshop-2-details-skills" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-requirements" | i18next }}</dt>
+                  <dd>{{ "workshop-2-details-requirements" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "workshop-2-details-creations" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-length" | i18next }}</dt>
+                  <dd>{{ "workshop-2-details-length" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-price" | i18next }}</dt>
+                  <dd>{{ "workshop-2-details-price" | i18next }}</dd>
+                </dl>
               </div>
             </div>
-            <div class="card-body p-3">
-              <h4>{{ "workshop-4-summary" | i18next }}</h4>
-              <p>{{ "workshop-4-summary-p1" | i18next }}</p>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "workshop-2-summary" | i18next }}</h4>
+            <p>{{ "workshop-2-summary-p1" | i18next }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div id="workshop-3-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#workshop-3" aria-expanded="false" aria-controls="workshop-3">
+            {{ "workshop-3-title" | i18next }}
+            <!--               <span class="badge badge-pill badge-success">{{ "workshop-3-badge" | i18next }}</span>
+ --> </button>
+        </div>
+
+        <div id="workshop-3" class="collapse" aria-labelledby="workshop-3-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded" src="assets/images/canvas-gesso.jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "workshop-3-details-mediums" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "workshop-3-details-creations" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-length" | i18next }}</dt>
+                  <dd>{{ "workshop-3-details-length" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-price" | i18next }}</dt>
+                  <dd>{{ "workshop-3-details-price" | i18next }}</dd>
+                </dl>
+              </div>
             </div>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "workshop-3-summary" | i18next }}</h4>
+            <p>{{ "workshop-3-summary-p1" | i18next }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div id="workshop-4-heading">
+          <button class="btn btn-link btn-block btn-outline-light text-left" type="button" data-toggle="collapse"
+            data-target="#workshop-4" aria-expanded="false" aria-controls="workshop-4">
+            {{ "workshop-4-title" | i18next }}</button>
+          <!--               <span class="badge badge-pill badge-success">{{ "workshop-4-badge" | i18next }}</span>
+               -->
+        </div>
+
+        <div id="workshop-4" class="collapse" aria-labelledby="workshop-4-heading">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-sm-6 pb-3">
+                <img class="img-fluid rounded" src="assets/images/making-paint.jpg" />
+              </div>
+              <div class="col text-left">
+                <dl>
+                  <dt>{{ "workshops-section-details-mediums" | i18next }}</dt>
+                  <dd>{{ "workshop-4-details-mediums" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-creations" | i18next }}</dt>
+                  <dd>{{ "workshop-4-details-creations" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-length" | i18next }}</dt>
+                  <dd>{{ "workshop-4-details-length" | i18next }}</dd>
+                  <dt>{{ "workshops-section-details-price" | i18next }}</dt>
+                  <dd>{{ "workshop-4-details-price" | i18next }}</dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div class="card-body p-3">
+            <h4>{{ "workshop-4-summary" | i18next }}</h4>
+            <p>{{ "workshop-4-summary-p1" | i18next }}</p>
           </div>
         </div>
 
@@ -367,6 +358,18 @@
     </div>
     <div class="col"></div>
   </div>
+
+  <div class="row pt-3">
+    <div class="col"></div>
+    <div class="col-lg-8">
+      <h2>{{ "full-drawing-course-overview" | i18next }}</h2>
+      <p>{{ "full-drawing-course-p1" | i18next }}</p>
+      <p>{{ "full-drawing-course-p2" | i18next }}</p>
+      <p>{{ "full-drawing-course-p3" | i18next }}</p>
+    </div>
+    <div class="col"></div>
+  </div>
+
   <div class="row pt-3">
     <div class="col"></div>
     <div class="col-lg-8">
@@ -382,4 +385,5 @@
     </div>
     <div class="col"></div>
   </div>
+
 </div>

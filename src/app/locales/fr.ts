@@ -6,32 +6,14 @@ export default {
 
 
     'full-drawing-course-title': "Cours complet de dessin et peinture",
-
-    'full-drawing-course-overview': 'Survol',
-    'full-drawing-course-p1': "J'offre un curriculum complet en dessin, en aquarelle et en peinture à l'huile d'après nature incluant une étude approfondie des matériaux et des techniques propres à chaque médium ainsi que des connaissances théoriques comme la perspective, la composition, la couleur et l'anatomie.",
-    'full-drawing-course-p2': "Suivant une méthode d'apprentissage ancrée dans la tradition artistique européenne et aboutie dans le réalisme socialiste des académies soviétiques et chinoises du XXe siècle, ce cours a pour objet de vous transmettre les connaissances théoriques et techniques d'une tradition vivante dont l'analyse pénétrante du monde visuel est fondamentale à la création artistique figurative en générale, et à ses incarnations réalistes, impressionistes surréalistes en particulier. Cette méthode, parfois appelée la méthode analytique, permet de percevoir l’invisible dans le visible, c'est-à-dire la structure spatiale des choses, et ainsi d’acquérir une compréhension totale du sujet visuel en tant qu'objet tri-dimensionel dans l'espace. Cette habileté ouvre le champ des possibles en termes de créativité parce qu'elle développe avant tout l'imagination visuelle de l'artiste.",
-    'full-drawing-course-p3': "En progressant méthodiquement de l’élémentaire au complexe, je vous propose de découvrir pas à pas le riche et passionant univers du dessin et de la peinture. À commencer avec la construction géométrique simple et la réalisation de natures mortes monochromes en vue d'aiguiser l'oeil et la main, nous aboutirons à la création d'œuvres complexes à l'huile: portraits, nus, paysages et compositions imaginaires. Le module final synthétise l'ensemble des connaissances acquises avec la réalisation d'un projet artistique personnel.",
-    'course-format': "Fonctionnement des cours",
-    'course-format-p1': "Les cours sont donnés en personne au studio en petits groupes de 3 à 5 élèves. Cette formule me permet d'accompagner chaque élève tout au long de son cheminement en adaptant le plus possible mes conseils et mes instructions au niveau de chacun.e et aux obstacles qu'elle ou il rencontre. Le curriculum est réparti en modules; chaque module est échelonné sur 3 à 4 mois; avec un cours de 2 à 3 heures par semaine (le soir ou la fin de semaine) ainsi que des travaux à compléter à la maison. Les cours consisteront principalement en des exercices de reproduction d'après nature, parsemés de présentations théoriques et historiques ainsi que des démonstrations techniques. Des excursions en plein air sont également prévues.",
-    'course-format-p2': "En plus des modules du cursus principal des ateliers plus courts et plus spécifiques sont offerts pour celles et ceux qui désirent approfondir leurs connaissances. Les ateliers portent entre autres sur l'anatomie, la fabrication de toiles sur mesure, la création de peinture à partir d'huile et de pigment, la photographie et l'archivage des œuvres artistiques, et plus encore.",
-    'course-format-p3': "Les modules sont construits pour être suivis séquentiellement. Par ailleurs, il est possible pour un.e élève de commencer avec un module plus avancé si elle ou il possède déjà les compétences requises.",
-    'course-format-p4': "Les frais de cours incluent du matériel pédagogique (textes explicatifs, illustrations, exemples) ainsi que l’usage des outils partagés au studio (chevalets, planches, etc). Les étudiants doivent amener leur propre matériel artistique (crayons, pinceaux, peinture, papier, etc). De l’espace est prévu pour l’entreposage des effets personnels.",
-    'course-format-p5': "Les plans de cours sont provisoires et peuvent changer en fonction de la vitesse d’apprentissage des élèves et autres considérations.",
-    'course-format-p6': "Cours privés sur demande seulement",
-
-    'modules-section-title': 'Modules',
-    'modules-section-details-mediums': "Médiums utilisés :",
-    'modules-section-details-skills': "Compétences acquises :",
-    'modules-section-details-requirements': "Compétences requises :",
-    'modules-section-details-creations': "Créations :",
-    'modules-section-details-length': "Durée et fréquence :",
-    'modules-section-details-price': "Prix :",
+    'full-drawing-course-lead': "Apprenez les techniques et connaissances traditionnelles de la peinture et du dessin figuratifs telles que transmises et raffinées pendant des siècles par des générations successives d'artistes.",
+    'full-drawing-course-register': "S'inscrire maintenant",
 
     'module-1-title': "Module I - Apprendre à voir: introduction au dessin d'après nature",
     'module-1-badge': "inscriptions ouvertes",
     'module-1-details-mediums': "Graphite, fusain",
     'module-1-details-skills': "Perpective, proportions, construction, tonalité, préparation du papier",
-    'module-1-details-requirements': "",
+    'module-1-details-requirements': "Aucunes",
     'module-1-details-creations': "Trois natures mortes au crayon de plomb et une au fusain",
     'module-1-details-length': "1 cours de 2 à 3 heures par semaine pendant 3 mois",
     'module-1-details-price': "575$",
@@ -122,7 +104,7 @@ export default {
     'workshop-3-details-length': "2 cours de 2 heures",
     'workshop-3-details-price': "200$ (matériaux inclus)",
     'workshop-3-summary': "Description",
-    'workshop-3-summary-p1': "Vous apprendrez comment monter et tendre vos propre toiles ainsi que les recettes d'apprêt et de gesso à l'ancienne permettant de réaliser des surfaces aux propriétés maléables et optimales pour la peinture à l'huile.",
+    'workshop-3-summary-p1': "Vous apprendrez comment monter et tendre vos propres toiles ainsi que les recettes d'apprêt et de gesso à l'ancienne permettant de réaliser des surfaces aux propriétés maléables et optimales pour la peinture à l'huile.",
     'workshop-3-summary-p2': "",
     'workshop-3-summary-p3': "",
 
@@ -139,11 +121,32 @@ export default {
     'workshop-4-summary-p2': "",
     'workshop-4-summary-p3': "",
 
+    'full-drawing-course-overview': 'Survol',
+    'full-drawing-course-p1': "J'offre un curriculum complet en dessin, en aquarelle et en peinture à l'huile d'après nature incluant une étude approfondie des matériaux et des techniques propres à chaque médium ainsi que des connaissances théoriques comme la perspective, la composition, la couleur et l'anatomie.",
+    'full-drawing-course-p2': "Suivant une méthode d'apprentissage ancrée dans la tradition artistique européenne et aboutie dans le réalisme socialiste des académies soviétiques et chinoises du XXe siècle, ce cours a pour objet de vous transmettre les connaissances théoriques et techniques d'une tradition vivante dont l'analyse pénétrante du monde visuel est fondamentale à la création artistique figurative en général, et à ses incarnations réalistes, impressionnistes surréalistes en particulier. Cette méthode, parfois appelée la méthode analytique, permet de percevoir l’invisible dans le visible, c'est-à-dire la structure spatiale des choses, et ainsi d’acquérir une compréhension totale du sujet visuel en tant qu'objet tridimensionel dans l'espace. Cette habileté ouvre le champ des possibles en termes de créativité parce qu'elle développe avant tout l'imagination visuelle de l'artiste.",
+    'full-drawing-course-p3': "En progressant méthodiquement de l’élémentaire au complexe, je vous propose de découvrir pas à pas le riche et passionnant univers du dessin et de la peinture. À commencer avec la construction géométrique simple et la réalisation de natures mortes monochromes en vue d'aiguiser l'oeil et la main, nous aboutirons à la création d'œuvres complexes à l'huile: portraits, nus, paysages et compositions imaginaires. Le module final synthétise l'ensemble des connaissances acquises avec la réalisation d'un projet artistique personnel.",
+
+    'course-format': "Fonctionnement des cours",
+    'course-format-p1': "Les cours sont donnés en personne au studio en petits groupes de 3 à 5 élèves. Cette formule me permet d'accompagner chaque élève tout au long de son cheminement en adaptant le plus possible mes conseils et mes instructions au niveau de chacun.e et aux obstacles qu'elle ou il rencontre. Le curriculum est réparti en modules; chaque module est échelonné sur 3 à 4 mois; avec un cours de 2 à 3 heures par semaine (le soir ou la fin de semaine) ainsi que des travaux à compléter à la maison. Les cours consisteront principalement en des exercices de reproduction d'après nature, parsemés de présentations théoriques et historiques ainsi que des démonstrations techniques. Des excursions en plein air sont également prévues.",
+    'course-format-p2': "En plus des modules du cursus principal des ateliers plus courts et plus spécifiques sont offerts pour celles et ceux qui désirent approfondir leurs connaissances. Les ateliers portent entre autres sur l'anatomie, la fabrication de toiles sur mesure, la création de peinture à partir d'huile et de pigment, la photographie et l'archivage des œuvres artistiques, et plus encore.",
+    'course-format-p3': "Les modules sont construits pour être suivis séquentiellement. Par ailleurs, il est possible pour un.e élève de commencer avec un module plus avancé si elle ou il possède déjà les compétences requises.",
+    'course-format-p4': "Les frais de cours incluent du matériel pédagogique (textes explicatifs, illustrations, exemples) ainsi que l’usage des outils partagés au studio (chevalets, planches, etc). Les étudiants doivent amener leur propre matériel artistique (crayons, pinceaux, peinture, papier, etc). De l’espace est prévu pour l’entreposage des effets personnels.",
+    'course-format-p5': "Les plans de cours sont provisoires et peuvent changer en fonction de la vitesse d’apprentissage des élèves et autres considérations.",
+    'course-format-p6': "Cours privés sur demande seulement",
+
+    'modules-section-title': 'Modules',
+    'modules-section-details-mediums': "Médiums utilisés :",
+    'modules-section-details-skills': "Compétences acquises :",
+    'modules-section-details-requirements': "Compétences requises :",
+    'modules-section-details-creations': "Créations :",
+    'modules-section-details-length': "Durée et fréquence :",
+    'modules-section-details-price': "Prix :",
+
     'info-contact-title': 'Contact',
     'info-contact-coordinates': "Le studio est situé dans l'Est du Plateau Mont-Royal à l'angle Masson et de Bordeaux.",
-    'info-contact-contact': "Pour les inscriptions aux cours ou pour tout autre renseignement vous pouvez me rejoindre au coordonnées suivantes:",
+    'info-contact-contact': "Pour les inscriptions aux cours ou pour tout autre renseignement vous pouvez me rejoindre aux coordonnées suivantes:",
     'info-about-title': 'À propos',
-    'info-about-bio': "Principalement autodidacte, j'ai également suivi une formation intensive à L'Académie d'art classique à Florence — un pôle de la fameuse Académie russe des Beaux-Arts à Saint-Pétersbourg — où on m'a transmis la méthodologie académique développée en Union Soviétique et encore enseignée dans les institutions publiques russes et chinoises aujourd'hui. Cette formation, jumelée à une fascination pour les techniques artistiques traditionnelles m'ont permis d'acquérir un vaste corpus de connaissances qu'il me fait un plaisir de transmettre à mon tour à mes étudiant.e.s."
+    'info-about-bio': "Principalement autodidacte, j'ai également suivi une formation intensive à L'Académie d'art classique à Florence — un pôle de la fameuse Académie russe des Beaux-Arts à Saint-Pétersbourg — où on m'a transmis la méthodologie académique développée en Union soviétique et encore enseignée dans les institutions publiques russes et chinoises aujourd'hui. Cette formation, jumelée à une fascination pour les techniques artistiques traditionnelles m'ont permis d'acquérir un vaste corpus de connaissances qu'il me fait un plaisir de transmettre à mon tour à mes étudiant.e.s."
 
   }
 };

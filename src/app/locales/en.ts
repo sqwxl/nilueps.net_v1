@@ -4,17 +4,8 @@ export default {
     'navbar-menu-courses': 'Lessons',
 
     'full-drawing-course-title': 'Full Painting and Drawing Course',
-    'full-drawing-course-overview': 'Overview',
-    'full-drawing-course-p1': 'I offer a full curriculum in drawing, watercolor and oil painting from life including an in-depth study of the materials and techniques specific to each medium as well as theoretical knowledge such as perspective, composition, color and anatomy.',
-    'full-drawing-course-p2': 'Following a learning method rooted in the European artistic tradition and culminating in the Socialist Realism of the Soviet and Chinese academies of the 20th century, this course aims to transmit the theoretical and technical knowledge of a living tradition whose penetrating analysis of the visual world is fundamental to figurative artistic creation in general, and to its realistic, surrealist and impressionist incarnations in particular. This method, sometimes called the analytical method, allows us to perceive the spatial structure of things and thus acquire a total understanding of the visual subject as a three-dimensional object in space. This skill opens up the field of possibilities in terms of creativity because it develops the visual imagination of the artist above all else.',
-    'full-drawing-course-p3': 'By progressing methodically from the elementary to the complex, I invite you to discover the rich and fascinating world of drawing and painting. Starting with simple geometric construction and the realization of monochrome still lives in order to sharpen the eye and the hand, we will work towards the creation of complex works in oil: portraits, nudes, landscapes and imaginary compositions. In the final module all the knowledge acquired will be synthesized in the realization of a personal artistic project.',
-    'course-format': 'Course format',
-    'course-format-p1': 'Classes are given in person at the studio in small groups of 3 to 5 students. This formula allows me to accompany each student throughout their journey by adapting as much as possible my advice and my instructions to the level of each one and to the obstacles they encounter. The curriculum is divided into modules; each module is spread over 3 to 4 months; with one 2 to 3 hour lesson every week (evenings or weekends) as well as work to be completed at home. The lessons will consist mainly of exercises of reproduction from nature, interspersed with theoretical and historical presentations as well as technical demonstrations. Outdoor excursions are also planned as the weather permits.',
-    'course-format-p2': 'In addition to the main course modules, shorter and more specific workshops are offered for those who wish to deepen their understanding. The workshops focus on anatomy, preparing canvases, making oil paint, photographing and archiving artistic works, and more.',
-    'course-format-p3': 'The modules are built to be followed sequentially. Moreover, it is possible for a student to start with a more advanced module if they already have the required skills.',
-    'course-format-p4': 'Course fees include learning materials (explanatory texts, illustrations and examples) and the use of shared tools in the studio (easels, boards, etc.). Students must bring their own artistic material (pencils, brushes, paint, paper, etc.). Space is provided for the storage of personal effects.',
-    'course-format-p5': 'Course plans are provisional and are subject to change according to the learning speed of the students or other considerations.',
-    'course-format-p6': 'Private lessons on demand only',
+    'full-drawing-course-lead': 'Learn the traditional techniques and knowledge of figurative painting and drawing handed down and refined by succesive generations of artists over centuries.',
+    'full-drawing-course-register': 'Register Now',
 
     'modules-section-title': 'Modules',
     'modules-section-details-mediums': 'Mediums used:',
@@ -27,8 +18,8 @@ export default {
     'module-1-title': 'Module I – Learning to See: Introduction to Drawing from Life',
     'module-1-badge': 'registration open',
     'module-1-details-mediums': 'Pencil, charcoal',
-    'module-1-details-skills': 'Perpective, proportions, construction, tonality, paper preparation',
-    'module-1-details-requirements': '',
+    'module-1-details-skills': 'Perspective, proportions, construction, tonality, paper preparation',
+    'module-1-details-requirements': 'None',
     'module-1-details-creations': 'Three pencil still lives and one in charcoal',
     'module-1-details-length': 'One 2 to 3 hour class every week for 3 months',
     'module-1-details-price': '$575',
@@ -63,7 +54,7 @@ export default {
     'module-3-summary-p2': '',
     'module-3-summary-p3': '',
 
-    'module-4-title': 'Module IV - Composition: Personal Composition and Human Anatomy',
+    'module-4-title': 'Module IV - Composition: Personal Work and Human Anatomy',
     'module-4-badge': 'under construction',
     'module-4-details-mediums': 'Pencil, charcoal, watercolor, oil, photography',
     'module-4-details-skills': 'Composition, methodology of composition, working from pictures',
@@ -115,8 +106,8 @@ export default {
     'workshop-3-details-mediums': 'Wood, glue, and homemade gesso',
     'workshop-3-details-skills': '',
     'workshop-3-details-requirements': 'None',
-    'workshop-3-details-creations': 'One streched, primed and ready-to-paint canvas',
-    'workshop-3-details-length': 'wo 2 hour workshops',
+    'workshop-3-details-creations': 'One stretched, primed and ready-to-paint canvas',
+    'workshop-3-details-length': 'Two 2 hour workshops',
     'workshop-3-details-price': '$200 (materials included)',
     'workshop-3-summary': 'Description',
     'workshop-3-summary-p1': 'You will learn how to mount and stretch your own canvases as well as the old-fashioned primer and gesso recipes for making surfaces with malleable properties which are optimal for oil painting.',
@@ -136,10 +127,24 @@ export default {
     'workshop-4-summary-p2': '',
     'workshop-4-summary-p3': '',
 
+    'full-drawing-course-overview': 'Overview',
+    'full-drawing-course-p1': 'I offer a full curriculum in drawing, watercolor and oil painting from life including an in-depth study of the materials and techniques specific to each medium as well as theoretical knowledge such as perspective, composition, color and anatomy.',
+    'full-drawing-course-p2': 'Following a learning method rooted in the European artistic tradition and culminating in the Socialist Realism of the Soviet and Chinese academies of the 20th century, this course aims to transmit the theoretical and technical knowledge of a living tradition whose penetrating analysis of the visual world is fundamental to figurative artistic creation in general, and to its realistic, surrealist and impressionist incarnations in particular. This method, sometimes called the analytical method, allows us to perceive the spatial structure of things and thus acquire a total understanding of the visual subject as a three-dimensional object in space. This skill opens up the field of possibilities in terms of creativity because it develops the visual imagination of the artist above all else.',
+    'full-drawing-course-p3': 'By progressing methodically from the elementary to the complex, I invite you to discover the rich and fascinating world of drawing and painting. Starting with simple geometric construction and the realization of monochrome still lives in order to sharpen the eye and hand, we will work towards the creation of complex works in oil: portraits, nudes, landscapes and imaginary compositions. In the final module all the knowledge acquired will be synthesized in the realization of a personal artistic project.',
+
+
+    'course-format': 'Course format',
+    'course-format-p1': 'Classes are given in person at the studio in small groups of 3 to 5 students. This formula allows me to accompany each student throughout their journey by adapting as much as possible my advice and my instructions to the level of each and to the obstacles they encounter. The curriculum is divided into modules; each module is spread over 3 to 4 months; with one 2 to 3 hour lesson every week (evenings or weekends) as well as work to be completed at home. The lessons will consist mainly of exercises of reproduction from nature, interspersed with theoretical and historical presentations as well as technical demonstrations. Outdoor excursions are also planned as the weather permits.',
+    'course-format-p2': 'In addition to the main course modules, shorter and more specific workshops are offered for those who wish to deepen their understanding. The workshops focus on anatomy, preparing canvases, making oil paint, photographing and archiving artistic works, and more.',
+    'course-format-p3': 'The modules are built to be followed sequentially. That said, it is possible for a student to start with a more advanced module if they already possess the required skills.',
+    'course-format-p4': 'Course fees include learning materials (explanatory texts, illustrations and examples) and the use of shared tools in the studio (easels, boards, etc.). Students must bring their own art supplies (pencils, brushes, paint, paper, etc.). Space is provided for the storage of personal effects.',
+    'course-format-p5': 'Course plans are provisional and are subject to change according to the learning speed of the students or other considerations.',
+    'course-format-p6': 'Private lessons on demand only',
+
     'info-contact-title': 'Contact',
-    'info-contact-coordinates': 'The studio is located Montreal at the corner or Masson and de Bordeaux.',
+    'info-contact-coordinates': 'The studio is located Montreal at the corner of Masson and de Bordeaux.',
     'info-contact-contact': 'To register for courses or for any other information, you may reach me at the following:',
-    'info-about-title': 'About',
-    'info-about-bio': 'Mainly self-taught, I also completed an intensive training program at the Florence Classical Arts Academy — a branch of the famous Fine Arts Academy in Saint Petersburg — where I was taught the academic methodology developed in the Soviet Union (and still taught in Russian and Chinese academies today). This training, combined with a fascination for traditional art techniques have allowed me to acquire a vast corpus of knowledge which I am happy to transmit in turn to my students.'
+    'info-about-title': 'About me',
+    'info-about-bio': 'Mainly self-taught, I also completed an intensive training program at the Florence Classical Arts Academy — a branch of the famous Fine Arts Academy in Saint Petersburg — where I was taught the academic methodology developed in the Soviet Union (and still taught in Russian and Chinese academies today). This training, combined with a fascination for traditional art techniques have allowed me to acquire a vast body of knowledge which I am happy to transmit in turn to my students.'
    }
 };
